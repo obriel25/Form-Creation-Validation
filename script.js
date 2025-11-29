@@ -1,8 +1,8 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function () {
   const form = document.getElementById('registration-form');
 
   if (form) {
-    form.addEventListener('submit', (event) => {
+    form.addEventListener('submit', function(event) {
       event.preventDefault(); // prevent form submission
 
       const feedbackDiv = document.getElementById('form-feedback');
